@@ -1,0 +1,41 @@
+.newBox {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  color: green;
+  margin: 5px 5px;
+}
+
+/*.newBox span {
+    /*text-align: center;
+    padding: auto auto;
+    background-color: white;
+    color: black;
+    margin: auto auto;
+}*/
+
+.newBox p {
+  display: inline-block;
+  margin: auto auto;
+  padding: 2px 2px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  left: 45px;
+  top: 40px;
+}
+
+#putBlocksHere div {
+  display: inline-block;
+}
+
+
+
+/*div {
+  height: 150px;
+  width: 50px;
+  background-color: red;
+  color: black;
+  display: inline;
+}*/
