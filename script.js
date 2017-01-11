@@ -9,8 +9,10 @@
    }); // changes the blocks black when clicked
 
    $('#putBlocksHere').on('click', 'p', function () {
-     $(this).parents('div').remove();
-   }); // removes blocks when the paragraph (x) is clicked
+     $(this).parents('div').fadeOut(2000, function () {
+          $(this).remove();
+     });  // fades out block, then removes 'div'
+   });    // when the paragraph (x) is clicked
 
  });
 
