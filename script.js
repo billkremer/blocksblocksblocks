@@ -10,12 +10,12 @@
 
    $('#putBlocksHere').on('click', 'p', function () {
      $(this).parents('div').remove();
-   });
+   }); // removes blocks when the paragraph (x) is clicked
 
  });
 
  function randColorString () {
- // creates a random rgb string for putting inline to the newBox
+ // creates a random rgb string for putting inline to the newBox.  this creates a random box color.
  var rand256a =  Math.floor(Math.random() * 256);
  var rand256b =  Math.floor(Math.random() * 256);
  var rand256c =  Math.floor(Math.random() * 256);

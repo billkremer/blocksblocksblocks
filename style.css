@@ -1,3 +1,15 @@
+h1 {
+  font-family: 'Geostar Fill', 'Arial', sans-serif;
+  font-size: 2.5em;
+}
+
+button {
+  height: 2em;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  font-size: 1em;
+}
+
 .newBox {
   height: 100px;
   width: 100px;
@@ -5,14 +17,6 @@
   color: green;
   margin: 5px 5px;
 }
-
-/*.newBox span {
-    /*text-align: center;
-    padding: auto auto;
-    background-color: white;
-    color: black;
-    margin: auto auto;
-}*/
 
 .newBox p {
   display: inline-block;
@@ -22,20 +26,13 @@
   color: black;
   font-weight: bold;
   position: relative;
-  left: 45px;
+  width: 20px;
+  text-align: center;
+  border-radius: 20px;
+  left: 40px;
   top: 40px;
 }
 
 #putBlocksHere div {
   display: inline-block;
 }
-
-
-
-/*div {
-  height: 150px;
-  width: 50px;
-  background-color: red;
-  color: black;
-  display: inline;
-}*/
